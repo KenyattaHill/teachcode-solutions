@@ -1,0 +1,10 @@
+const numbers = [44, 29];
+const one = (x, y) => x == y;
+const two = (x, y) => x === y;
+const three = (x, y) => x != y;
+const four = (x, y) => x > y;
+const five = (x, y) => x < y;
+const six = (x, y) => x >= y;
+const seven = (x, y) => x <= y;
+const operations = [one, two, three, four, five, six, seven];
+operations.forEach(operation => console.log(operation(...numbers)));

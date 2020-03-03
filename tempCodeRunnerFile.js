@@ -1,5 +1,2 @@
-console.log(Math.round('5.57'));
-console.log(6 ** 3);
-console.log(Math.sqrt(841));
-console.log(Math.ceil(5.3));
-console.log(Math.floor(5.3));
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+console.log(days[new Date().getDay()]);

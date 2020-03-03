@@ -1,9 +1,3 @@
-const test = ['abc', 'bcd', 'cde'];
-test.forEach(x => console.log(x));
-for (const key in test) {
-  console.log(key)
-}
-
-for (const value of test) {
-  console.log(value)
-}
+const string = 'Hello, I am a JS Developer.';
+const another = 'I am a Polygot.';
+console.log(string.startsWith('Hello') && string.endsWith('Develop'))
